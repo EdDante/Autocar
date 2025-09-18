@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 import modelo.Carro;
+import modelo.Caminhao;
 import modelo.Moto;
 import modelo.Veiculo;
 public class Main {
