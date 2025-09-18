@@ -1,26 +1,27 @@
 package modelo;
 
 public class Veiculo {
-        private String marca;
-        private String modelo;
+    private String marca;
+    private String modelo;
 
-        public void Veiculo(String marca, String modelo) {
-            this.marca = marca;
-            this.modelo = modelo;
-        }
+    // Construtor correto
+    public Veiculo(String marca, String modelo) {
+        this.marca = marca;
+        this.modelo = modelo;
+    }
 
-        public String getMarca() { return marca; }
-        public void setMarca(String marca) { this.marca = marca; }
+    public String getMarca() { return marca; }
+    public void setMarca(String marca) { this.marca = marca; }
 
-        public String getModelo() { return modelo; }
-        public void setModelo(String modelo) { this.modelo = modelo; }
+    public String getModelo() { return modelo; }
+    public void setModelo(String modelo) { this.modelo = modelo; }
 
-        public String exibirInformacoes() {
-            return "Marca: " + marca + ", Modelo: " + modelo;
-        }
+    public String exibirInformacoes() {
+        return "Marca: " + marca + ", Modelo: " + modelo;
+    }
 
-        @Override
-        public String toString() {
-            return exibirInformacoes();
-        }
+    @Override
+    public String toString() {
+        return exibirInformacoes();
+    }
 }
