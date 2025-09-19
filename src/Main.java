@@ -26,15 +26,15 @@ public class Main {
             case 1:
                 System.out.println("Temos os Seguintes modelos:");
 
-                    Veiculo carro = new Carro("Honda", "Civic", 4);
+                    Veiculo carro = new Carro("Honda", "Civic", "Automatico");
                     veiculos.add(carro);
-                    Veiculo carro1 = new Carro("Toyota", "Corolla", 4);
+                    Veiculo carro1 = new Carro("Toyota", "Corolla", "Automatico");
                     veiculos.add(carro1);
-                    Veiculo carro2 = new Carro("Ford", "Mustang", 2);
+                    Veiculo carro2 = new Carro("Ford", "Mustang", "Manual");
                     veiculos.add(carro2);
-                    Veiculo carro3 = new Carro("Chevrolet", "Camaro", 2);
+                    Veiculo carro3 = new Carro("Chevrolet", "Camaro", "Manual");
                     veiculos.add(carro3);
-                    Veiculo carro4 = new Carro("Volkswagen", "Golf", 4);
+                    Veiculo carro4 = new Carro("Volkswagen", "Golf", "Automatico");
                     veiculos.add(carro4);
 
                     for (Veiculo v : veiculos) {
