@@ -5,6 +5,7 @@
 - Pedro Correia do Carmo — RA: 32321163
 - Lucas Rezende Santos — RA: 32328926
 - Eduardo Dante Viera Fernandes — RA: 324133923
+- Marcos Vinícius de Souza - RA: 32323903
 ## Descrição do Projeto
 
 Este projeto simula uma hierarquia de veículos utilizando os princípios de Programação Orientada a Objetos em Java. A superclasse `Veiculo` define os atributos e métodos comuns, enquanto as subclasses `Carro` e `Moto` estendem essa classe com características específicas.
