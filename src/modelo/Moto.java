@@ -3,7 +3,7 @@ package modelo;
 public class Moto extends Veiculo {
     private boolean temPartidaEletrica;
 
-    public Moto(String marca, String modelo, boolean temPartidaEletrica) {
+    public Moto(String marca, String modelo, boolean temPartidaEletrica, Seguro seguro) {
         super(marca, modelo);
         this.temPartidaEletrica = temPartidaEletrica;
     }
